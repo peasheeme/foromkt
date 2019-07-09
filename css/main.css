@@ -819,6 +819,25 @@ a.link-contacto:hover  p.black:hover{
       color: #cc1414 !important;
     }
 /*------------------------- webpage----------*/
+/*------------------------- class for market-study----------*/
+.market-study {
+  background: #004963;
+}
+.btn-participar{
+  display: block;
+  background: #cc1414;
+  width: 25%;
+  color: white;
+  text-align: center;
+  padding: 10px;
+  font-weight: bold;
+  border-radius: 5px;
+}
+.btn-participar:hover{
+  outline: none;
+  color: white;
+}
+
 .oculto-largo {
   display: none;
 }

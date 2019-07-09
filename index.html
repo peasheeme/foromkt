@@ -335,8 +335,8 @@
 								<img src="img/11.jpg" alt="" class="img-fluid">
 							</div>
 							<div class="owl-item">
-									<img src="img/sala2.jpg" alt="" class="img-fluid">
-								</div>
+								<img src="img/sala2.jpg" alt="" class="img-fluid">
+							</div>
 						</div>
 					</div>
 					<div name="tab_contenido" id="tab_contenido3" class="tab_contenido">
@@ -472,6 +472,38 @@
 		</div>
 	</section>
 	<!--######## End reclutamiento Area ########-->
+
+	<!--######## Start market study ########-->
+	<section class="market-study section-gap">
+		<div class="container">
+			<div class="row">
+				<div class="col-xs-12 col-sm-6 col-md-6">
+					<h3 style="color:white;">¿Fuiste invitado a participar a un estudio de mercado?</h3>
+
+					<p style="color:white;" class="text-justify">
+						Lorem ipsum dolor sit amet consectetur adipisicing elit.
+						Rem earum dolorem, ut odio optio, quaerat sint 
+						exercitationem velit voluptatibus libero praesentium 
+						esse consequatur eaque! Officia pariatur porro natus 
+						ex assumenda!
+					</p>
+				</div>
+				<div class="col-xs-12 col-sm-6 col-md-6">
+					<h3 style="color:white;">¿Te gustaría participar en un estudio de mercado?</h3>
+
+					<p style="color:white;" class="text-justify">
+						Lorem ipsum dolor sit amet consectetur adipisicing elit.
+						Rem earum dolorem, ut odio optio, quaerat sint 
+						
+					</p>
+
+					<a href="#" data-toggle="modal" data-target="#modalFormParticipation" class="btn-participar">Participar</a>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<!--######## End market study ########-->
 
 	<!--######## Start services2 Area ########-->
 	<section class=" section-gap" id="otros">
@@ -640,9 +672,11 @@
 							<div id="collapse8" class="collapse" role="tabpanel" aria-labelledby="heading8"
 								data-parent="#accordionEx">
 								<div class="card-body">
-									<p class="black"> Disponemos de un equipo de profesionales con experiencia en sesiones 
-										de grupo y entrevistas a profundidad de acuerdo al perfil solicitado. Nuestro servicio está regido 
-										por las normas de la A.M.A.I. Apoyamos en diferentes rubros y giros 
+									<p class="black"> Disponemos de un equipo de profesionales con experiencia en
+										sesiones
+										de grupo y entrevistas a profundidad de acuerdo al perfil solicitado. Nuestro
+										servicio está regido
+										por las normas de la A.M.A.I. Apoyamos en diferentes rubros y giros
 									</p>
 								</div>
 							</div>
@@ -662,7 +696,7 @@
 								</a>
 							</div>-->
 
-							<!-- Card body 
+						<!-- Card body 
 							<div id="collapseSix6" class="collapse" role="tabpanel" aria-labelledby="headingSix6"
 								data-parent="#accordionEx">
 								<div class="card-body">
@@ -688,7 +722,7 @@
 								</a>
 							</div>-->
 
-							<!-- Card body 
+						<!-- Card body 
 							<div id="collapseSeven7" class="collapse" role="tabpanel" aria-labelledby="headingSeven7"
 								data-parent="#accordionEx">
 								<div class="card-body">
@@ -948,9 +982,11 @@
 							<div id="collapseFive5" class="collapse" role="tabpanel" aria-labelledby="headingFive5"
 								data-parent="#accordionEx">
 								<div class="card-body">
-									<p class="black"> Disponemos de un equipo de profesionales con experiencia en sesiones de grupo y 
-										entrevistas a profundidad de acuerdo al perfil solicitado. Nuestro servicio está regido por 
-										las normas de la A.M.A.I. Apoyamos en diferentes rubros y giros 
+									<p class="black"> Disponemos de un equipo de profesionales con experiencia en
+										sesiones de grupo y
+										entrevistas a profundidad de acuerdo al perfil solicitado. Nuestro servicio está
+										regido por
+										las normas de la A.M.A.I. Apoyamos en diferentes rubros y giros
 									</p>
 								</div>
 							</div>
@@ -1274,6 +1310,54 @@
 						<li class="o-servicios"> SAFI <a href="https://goo.gl/maps/mtHKLMGef7Wv385B9" target="_blank">
 								Ubicación</a></li>
 					</ul>
+				</div>
+				<div class="modal-footer">
+					<button type="btn-1" class="btn-enviar" data-dismiss="modal">Cerrar</button>
+
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<!-- Modal modalFormParticipation-->
+	<div class="modal fade" id="modalFormParticipation" tabindex="-1" role="dialog"
+		aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+		<div class="modal-dialog modal-lg modal-dialog-centered" role="document">
+			<div class="modal-content">
+				<div class="modal-header">
+					<h3 class="modal-title" id="exampleModalCenterTitle">Estudio de mercado</h3>
+					<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+						<span aria-hidden="true">&times;</span>
+					</button>
+				</div>
+				<div class="modal-body">
+
+					<p class="black">Deja la siguiente información para el estudio de mercado</p>
+
+					<form action="">
+						<div class="form-group">
+							<label for="">Nombre completo</label>
+							<input type="text" name="nombre" class="form-control" id="nombre" placeholder="Nombre completo...">
+						</div>
+						<div class="form-group">
+							<label for="">Edad</label>
+							<input type="text" name="edad" class="form-control" id="edad" placeholder="Edad...">
+						</div>
+						<div class="form-group">
+							<label for="">Colonia</label>
+							<input type="text" name="colonia" class="form-control" id="colonia" placeholder="Colonia...">
+						</div>
+						<div class="form-group">
+							<label for="">Teléfono</label>
+							<input type="tel" name="telefono" class="form-control" id="telefono" placeholder="Teléfono...">
+						</div>
+
+						
+						<button type="submit" class="btn-enviar">
+							Enviar
+						</button>					
+
+					</form>
 				</div>
 				<div class="modal-footer">
 					<button type="btn-1" class="btn-enviar" data-dismiss="modal">Cerrar</button>
